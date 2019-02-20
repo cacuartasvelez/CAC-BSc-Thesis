@@ -1,0 +1,30 @@
+\chapter{Conclusiones y trabajo futuro}
+\label{cap:conclusiones}
+
+%PD 
+%Aquí se ha planteado un modelo basado en diversidad
+%
+%%Se planteó a pepe y se comprobó que 2+2 = pepepepepez Kappa
+%
+%%El objetivo de este proyecto
+%
+%Se propuso un método novedoso para la caracterización de aberraciones en sistemas ópticos basado en el uso de OVs para mejorar la respuesta de la fase recuperada. También se mostró que el método funciona para un grado considerable de aberraciones.
+%
+%A partir de PD coherente, se propuso una modificación de forma tal que es posible identificar aberraciones no solo de sistemas ópticos, si no que puede emplearse para caracterizar la fase de SLMs, esto basados en los datos experimentales obtenidos del SLM
+%además de esto, puede emplearse como un método complementario al PD.
+
+Para el SLM LC-2002 concluimos que si bien posee estados de modulación de $2\pi$ en fase, estos no necesariamente son los mejores estados para la generación de OVs, puede ser mejor emplear un estado que posea una menor modulación en fase, su comportamiento sea \textit{suave}, y que la tramtancia tenga una variación de alrededor de $30\%$ para todos los niveles de gris. A partir del conocimiento de esta curva de modulación se implementó un algoritmo que permite describir OVs con información experimental del SLM.\\
+
+
+Con base en los algoritmos de PD desarrollados del Grupo de Óptica Aplicada de la Universidad EAFIT, se desarrollaron dos nuevas posibilidades para sensar aberraciones a través de PD. La primera de ellas PD1, permite obtener las aberraciones causadas por un sistema óptico que genera OVs a partir de un SLM, ya que considera las aberraciones causadas por la modulación de fase en los OVs que obtiene como solución a las aberraciones. Por otro lado, PD2 permite recuperar las aberraciones que son causadas por la modulación en fase del SLM, gracias a que considera un sistema óptico limitado por difracción, en donde la única aberración que pueden presentar los OVs son aquellas que sean causada por la modulación en fase. Una de sus  principales características es que permite predecir aberraciones incluso antes de que se generen OVs experimentales.\\
+
+La implementación de PD1 y PD2 a OVs experimentales demuestra que PD1 como PD2 corrigen una parte de las aberraciones, manifestándose esto en una mejor en la calidad de los OVs. Sin embargo, la corrección brindada por PD coherente contiene información de los resultados obtenidos con PD1 y PD2.\\
+
+Con los resultados de fase encontrados se determinó que a partir de las aberraciones recuperadas con PD coherente, PD1 y PD2 efectivamente tienen correspondencia, debido a que a partir de el resultado de PD coherente y PD1, pudo recuperarse satisfactoriamente las aberraciones obtenidas a partir de PD2.\\
+
+Como trabajo futuro se propone:
+
+\begin{itemize}
+\item Modificar los algoritmos de PD coherente para que en este puedan emplearse redes de difracción.
+\item Emplear PD2 para como sensor de aberraciones de modulación en SLMs cuya modulación en fase difiera por la linealidad y \textit{suavidad} de la curva para determinar el efecto de estas características en la generación de OVs.
+\end{itemize} 

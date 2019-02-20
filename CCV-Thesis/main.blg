@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: Cubierta/Cubierta.aux
+A level-1 auxiliary file: Cubierta/Contenido.aux
+A level-1 auxiliary file: Caps/Introduccion.aux
+A level-1 auxiliary file: Caps/Vortices.aux
+A level-1 auxiliary file: Caps/Diversidad.aux
+A level-1 auxiliary file: Caps/Implementacion.aux
+A level-1 auxiliary file: Caps/Resultados.aux
+A level-1 auxiliary file: Caps/Conclusiones.aux
+The style file: unsrt.bst
+Database file #1: ReferenciasPG.bib
+Warning--empty year in Echeverri2015
+Warning--empty school in EcheverriChacon2015
+You've used 53 entries,
+            1791 wiz_defined-function locations,
+            821 strings with 12726 characters,
+and the built_in function-call counts, 11910 in all, are:
+= -- 1098
+> -- 497
+< -- 6
++ -- 190
+- -- 137
+* -- 901
+:= -- 1927
+add.period$ -- 164
+call.type$ -- 53
+change.case$ -- 42
+chr.to.int$ -- 0
+cite$ -- 55
+duplicate$ -- 503
+empty$ -- 1155
+format.name$ -- 137
+if$ -- 2594
+int.to.chr$ -- 0
+int.to.str$ -- 53
+missing$ -- 53
+newline$ -- 268
+num.names$ -- 54
+pop$ -- 109
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 182
+stack$ -- 0
+substring$ -- 875
+swap$ -- 82
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 119
+width$ -- 55
+write$ -- 592
+(There were 2 warnings)

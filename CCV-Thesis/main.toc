@@ -1,0 +1,33 @@
+\contentsline {section}{\bf Agradecimientos}{\es@scroman {ix}}{chapter*.1}
+\contentsline {section}{\bf Resumen}{\es@scroman {xi}}{chapter*.2}
+\select@language {spanish}
+\contentsline {section}{\bf Lista de acr\IeC {\'o}nimos}{\es@scroman {xviii}}{chapter*.5}
+\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Objetivo General}{5}{section.1.1}
+\contentsline {section}{\numberline {1.2}Objetivos Espec\IeC {\'\i }ficos}{5}{section.1.2}
+\contentsline {chapter}{\numberline {2}V\IeC {\'o}rtices \IeC {\'o}pticos}{6}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introducci\IeC {\'o}n}{7}{section.2.1}
+\contentsline {section}{\numberline {2.2}Definici\IeC {\'o}n de v\IeC {\'o}rtice \IeC {\'o}ptico}{8}{section.2.2}
+\contentsline {section}{\numberline {2.3}Generaci\IeC {\'o}n de v\IeC {\'o}rtices \IeC {\'o}pticos}{11}{section.2.3}
+\contentsline {section}{\numberline {2.4}Moduladores espaciales de luz basados en cristal l\IeC {\'\i }quido}{14}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Cristales l\IeC {\'\i }quidos como dispositivos \IeC {\'o}pticos}{17}{subsection.2.4.1}
+\contentsline {section}{\numberline {2.5}Aberraciones en v\IeC {\'o}rtices \IeC {\'o}pticos}{21}{section.2.5}
+\contentsline {chapter}{\numberline {3}Diversidad de fase}{24}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introducci\IeC {\'o}n}{25}{section.3.1}
+\contentsline {section}{\numberline {3.2}Diversidad de fase incoherente}{25}{section.3.2}
+\contentsline {section}{\numberline {3.3}Aberraciones \IeC {\'o}pticas}{29}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Ortogonalidad y composici\IeC {\'o}n de los polinomios de Zernike}{31}{subsection.3.3.1}
+\contentsline {section}{\numberline {3.4}Diversidad de fase coherente}{33}{section.3.4}
+\contentsline {section}{\numberline {3.5}Modificaciones propuestas para diversidad de fase coherente}{37}{section.3.5}
+\contentsline {chapter}{\numberline {4}Implementaciones experimentales}{43}{chapter.4}
+\contentsline {section}{\numberline {4.1}Caracterizaci\IeC {\'o}n del modulador espacial de luz}{43}{section.4.1}
+\contentsline {section}{\numberline {4.2}Montaje experimental}{48}{section.4.2}
+\contentsline {chapter}{\numberline {5}Resultados}{51}{chapter.5}
+\contentsline {section}{\numberline {5.1}Caracterizaci\IeC {\'o}n de modulador espacial de luz LC-2002}{51}{section.5.1}
+\contentsline {section}{\numberline {5.2}V\IeC {\'o}rtices \IeC {\'o}pticos experimentales}{54}{section.5.2}
+\contentsline {section}{\numberline {5.3}Simulaci\IeC {\'o}n de v\IeC {\'o}rtices \IeC {\'o}pticos con curva de modulaci\IeC {\'o}n experimental}{57}{section.5.3}
+\contentsline {section}{\numberline {5.4}Correcci\IeC {\'o}n de aberraciones empleando diversidad de fase coherente}{60}{section.5.4}
+\contentsline {section}{\numberline {5.5}Diversidad de fase como sensor de aberraciones por modulaci\IeC {\'o}n}{64}{section.5.5}
+\contentsline {section}{\numberline {5.6}Diversidad de fase como sensor de aberraciones del sistema \IeC {\'o}ptico}{66}{section.5.6}
+\contentsline {chapter}{\numberline {6}Conclusiones y trabajo futuro}{70}{chapter.6}
+\contentsline {chapter}{Referencias}{72}{chapter.6}

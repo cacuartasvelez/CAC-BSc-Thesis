@@ -1,0 +1,167 @@
+\documentclass[12pt,openany,letterpaper]{mitthesis}
+
+\pdfminorversion=4
+
+\usepackage{lgrind}
+\usepackage[margin=3cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{colortbl}
+\usepackage[spanish]{babel}
+\usepackage{amsmath,mathrsfs}
+\usepackage{etoolbox}
+\usepackage{hyperref}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{dsfont}	
+\usepackage{graphicx}
+\usepackage{pdflscape}
+\usepackage{afterpage}
+\usepackage{cite}
+\usepackage{footnote}
+\usepackage{datatool}
+\usepackage{pdfpages}
+\usepackage{subfigure}
+
+\usepackage{acronym}
+\renewcommand{\bflabel}[1]{{\textbf{#1}\hfill}}
+%\setlength\nomlabelwidth{1.5cm}
+%\usepackage{nomencl}
+
+
+
+\setlength{\parindent}{0pt}
+%\setlength{\textwidth}{15cm}
+
+% Replace parenthesis with (
+
+\newcommand{\sortitem}[1]{%
+  \DTLnewrow{list}% Create a new entry
+  \DTLnewdbentry{list}{description}{#1}% Add entry as description
+}
+\newenvironment{sortedlist}{%
+  \DTLifdbexists{list}{\DTLcleardb{list}}{\DTLnewdb{list}}% Create new/discard old list
+}{%
+  \DTLsort{description}{list}% Sort list
+  \begin{itemize}%
+    \DTLforeach*{list}{\theDesc=description}{%
+      \item \theDesc}% Print each item
+  \end{itemize}%
+}
+
+\makeatletter
+\def\resetMathstrut@{%
+  \setbox\z@\hbox{%
+    \mathchardef\@tempa\mathcode`\[\relax
+    \def\@tempb##1"##2##3{\the\textfont"##3\char"}%
+    \expandafter\@tempb\meaning\@tempa \relax
+  }%
+  \ht\Mathstrutbox@\ht\z@ \dp\Mathstrutbox@\dp\z@}
+\makeatother
+\begingroup
+  \catcode`(\active \xdef({\left\string(}
+  \catcode`)\active \xdef){\right\string)}
+\endgroup
+\mathcode`(="8000 \mathcode`)="8000
+%end
+
+\hypersetup{
+    bookmarks=true,         % show bookmarks bar
+    unicode=false,          % non-Latin characters in Acrobat’s bookmarks
+    pdftoolbar=true,        % show Acrobat’s toolbar?
+    pdfmenubar=true,        % show Acrobat’s menu?
+    pdffitwindow=true,     % window fit to page when opened
+    pdfstartview={FitH},    % fits the width of the page to the window
+    pdftitle={Solución a la indeterminación de las aberraciones producidas por un SLM y por sistemas ópticos en algoritmos de diversidad de fase},% title
+    pdfauthor={Carlos Alfredo Cuartas Vélez},     % author
+    pdfsubject={Trabajo de Grado},   % subject of the document
+    %pdfcreator={Creator},   % creator of the document
+    %pdfproducer={Producer}, % producer of the document
+    pdfkeywords={Phase diversity} {Aberraciones} {Vórtices ópticos} {Modulador espacial de luz}, % list of keywords
+    pdfnewwindow=true,      % links in new window
+    colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor=blue,          % color of internal links (change box color with linkbordercolor)
+    citecolor=red,        % color of links to bibliography
+    filecolor=magenta,      % color of file links
+    urlcolor=cyan           % color of external links
+}
+
+\pagenumbering{roman}
+
+%\usepackage{fancyhdr}
+%\pagestyle{fancy}
+%\fancyhf{}
+%\fancyhead[LE, RO]{\small \rightmark}
+%\fancyhead[LO, RE]{\thepage}
+
+\begin{document}
+
+\renewcommand{\listfigurename}{Lista de Figuras}
+\renewcommand{\listtablename}{Lista de Tablas}
+\renewcommand{\contentsname}{Contenido}
+\renewcommand{\tablename}{Tabla} 
+\renewcommand{\bibname}{Referencias}
+
+%%% Temas y subtemas tentativos en los capítulos
+%
+% Resumen 
+%
+% 1. Introducción
+%  % Presentar objetivos
+%
+% 2. Vórtices ópticos
+%  % Cargas topológicas fraccionales
+%
+% 2.1. Aberraciones ópticas
+%
+% 2.2. Moduladores espaciales de luz
+%  % Twisted nematic % Parallel nematic  % Transmision % Reflexión
+% 
+% 3. Diversidad de fase
+%  % PD tradicional % PD Coherente
+%    IMAGENES
+%	 Agregar aquí la parte de las aberraciones ópticas
+%		
+%
+% 4. Implementación
+%  % Generador de vortices % Generardor vortices con SLM real % 
+%
+% 5. Resultadoss
+%
+% 6. Conclusiones y trabajo futuro
+%
+% Referencias
+%
+%%%%
+
+\include{Cubierta/Cubierta}
+
+\include{Cubierta/Contenido}
+\pagenumbering{arabic}
+
+\include{Caps/Introduccion}
+
+\include{Caps/Vortices}
+
+\include{Caps/Diversidad}
+%%
+% Ecuaciones con el rótulo eqD.. pertenecen al capítulo de diversidad de fase
+% con el róti eqV a vortices
+%
+\include{Caps/Implementacion}
+%
+\include{Caps/Resultados}
+%\include{Caps/Resultados2}
+%
+\include{Caps/Conclusiones}
+%
+
+\addcontentsline{toc}{chapter}{Referencias}
+\bibliographystyle{unsrt}
+%\bibliography{ReferenciasPG,RefJefe}
+\bibliography{ReferenciasPG}
+
+%\appendix
+%\chapter*{Anexos}
+%\newpage
+%\includepdf[pages={1,2,3,4}]{Coherent_illumination_PD.pdf}
+\end{document}

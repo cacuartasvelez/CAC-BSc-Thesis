@@ -1,0 +1,131 @@
+\author{Carlos Alfredo Cuartas Vélez}
+\title{SOLUCIÓN A LA INDETERMINACIÓN DE LAS ABERRACIONES PRODUCIDAS POR UN MODULADOR ESPACIAL DE LUZ Y POR SISTEMAS ÓPTICOS EN ALGORITMOS DE DIVERSIDAD DE FASE.}
+
+\newcommand\portada{
+	\begin{titlepage}
+		\begin{center}
+			\vfill
+			{\Huge \bf TRABAJO DE GRADO}
+			\vfill
+			{\large \bf Carlos Alfredo Cuartas Vélez\\
+			ccuarta1@eafit.edu.co \par}
+			\vfill
+			{\normalsize \bf Universidad EAFIT \par}
+			{\normalsize \bf Escuela de Ciencias \par}
+			{\normalsize \bf Departamento de Ciencias Físicas \par}
+			{\normalsize \bf Ingeniería Física \par}
+			{\normalsize \bf Medellín, Colombia \par}
+			{\normalsize \bf 2015\par}
+		\end{center}
+	\end{titlepage}
+}
+
+\newcommand\contraportada{
+	\begin{titlepage}
+		\begin{center}
+			{\large \bf SOLUCIÓN A LA INDETERMINACIÓN DE LAS ABERRACIONES PRODUCIDAS POR UN MODULADOR ESPACIAL DE LUZ Y POR SISTEMAS ÓPTICOS EN ALGORITMOS DE DIVERSIDAD DE FASE} 
+			\vfill
+% 			{\large\bf PRESENTADO POR \par}
+			{\large \bf CARLOS ALFREDO CUARTAS VÉLEZ} %Cód 201320001163}
+			\vfill
+			{\large Tesis de grado presentada como requisito parcial para optar al título de: \\ 
+			\bf Ingeniero Físico\par}
+			\vfill
+			{\large\bf Director \par} 
+                        {\large\bf PROF. RENÉ RESTREPO GÓMEZ \par}
+                        
+			\vfill
+			{\normalsize \bf UNIVERSIDAD EAFIT \par}
+			{\normalsize \bf ESCUELA DE CIENCIAS \par}
+			{\normalsize \bf DEPARTAMENTO DE CIENCIAS FÍSICAS \par}
+			{\normalsize \bf INGENIERÍA FÍSICA \par}
+			{\normalsize \bf MEDELLÍN, COLOMBIA \par}
+			{\normalsize \bf 2015\par}
+		\end{center}
+\end{titlepage}
+}
+
+\newcommand \aceptacion{
+	\begin{flushleft}
+		{\vspace*{3cm} \hspace{8cm} \normalsize Nota de aceptación \par}
+		{\vfill \hspace{8cm} \hrulefill \par}
+		{\vfill \hspace{8cm} \hrulefill \par}
+		{\vfill \hspace{8cm} Asesor \par}
+		{\vfill \hspace{8cm} \hrulefill \par}
+		{\vfill \hspace{8cm} Jurado \par}
+		{\vfill \hspace{8cm} \hrulefill \par}
+		{\vfill \hspace{8cm} Jurado \par}
+		{\vfill \hspace{8cm} \hrulefill \par}
+		{\vfill \hspace{8cm} \normalsize Medellín, junio de 2015 \par}
+		{\vspace*{3cm}}
+	\end{flushleft}
+}
+
+\newcommand \dedicatoria{
+	\begin{flushleft}
+		{\vspace*{4cm} \hspace{8cm} \normalsize \textit{A mi familia, para que sea un} \par }
+		{\hspace{8cm} \normalsize \textit{comienzo para todos ellos.} \par }
+	\end{flushleft}
+}
+
+\newcommand \agradecimientos{
+\chapter*{Agradecimientos}
+	
+	Quiero agradecer a mi familia, quienes siempre han estado conmigo para apoyarme a lo largo de toda mi vida y que tanto para mi como para ellos, es una experiencia enriquecedora. También, a compañeros por el apoyo durante la realización del proyecto. Asimismo al grupo de Óptica Aplicada de la Universidad EAFIT donde me he formado personal y profesionalmente, especialmente al profesor René Restrepo Gómez y a Santiago Echeverri con quienes he tenido la oportunidad de trabajar durante los dos últimos años y han compartido parte de su tiempo y conocimiento conmigo. Así como al profesor Luciano Ángel, quien mediante el proyecto ``Aberraciones ópticas en haces Laguerre-Gaussianos: corrección y aplicaciones metrológicas'', además de dar el primer paso para la realización de este trabajo, permitió mi vinculación con el grupo de investigación. Por último, agradecer a la Universidad EAFIT, en especial a la beca ANDI, quienes son los responsables de la oportunidad que tuve de emprender este camino. 
+}
+
+\newcommand \resumen{
+\chapter*{Resumen}
+%La óptica singular es una rama de la óptica que se desarrolla hace relativamente poco. Con la aplicación de vórtices ópticos para problemas tales como micromotores su estudio ha incrementado en los recientes tiempos. Uno de los problemas más comunes con los vórtices ópticos es su sensibilidad ante cierto tipo de aberraciones de primer orden. Las aberraciones pueden provenir de diversas fuentes, tales como los elementos empleados en el sistema óptico así. En los últimos años con el desarrollo de los cristales líquidos y los hologramas generados por computadora, es más común encontrar que se emplean moduladores espaciales de luz como objetos de fase que otorgan sus características a los OVs. Ahora si bien es cierto que emplear SLMs tiene sus ventajas (por ejemplo, posibilidad de generar OVs de diferentes cargas topológicas), también es cierto que cuando los SLMs son de baja calidad, estos también pueden deformar los OVs que producen. El grupo de Óptica Aplicada de la Universidad EAFIT ha estado trabajando no solo en la generación de OVs, si no que además han desarrollado un método para caracterizar las aberraciones que estos puedan presentar. Este método se ha basado en el concepto de diversidad de fase, que es una técnica iterativa de recuperación de aberraciones en sistemas incoherentes. La aplicación de PD a OVs a traído con sigo una nueva posibilidad para la caracterización de las aberraciones que inducen los SLM de baja calidad, esto basado en el conocimiento profundo del SLM. Por ello, en este proyecto se plantea un método para recuperar y discernir la contribución de las aberraciones causadas por un sistema ópticos y las causadas por un SLM de transmisión. \\
+
+%En este trabajo se presentan los resultados de modificar los algoritmos de diversidad de fase propuestos por el grupo de Óptica Aplicada de la Universidad EAFIT, de forma que es posible discernir las aberraciones causadas por la modulación en fase de un modulador espacial de luz (SLM) de transmisión y las aberraciones causadas por el sistema óptico.
+
+%En este trabajo se presenta una modificación a los algoritmos de diversidad de fase, para la recuperación de aberraciones en sistemas ópticos, propuestos por el grupo de óptica aplicada de la universidad EAFIT. Estas modificaciones permiten identificar de manera independiente, las aberraciones ocasionada por la modulación en fase de un modulador espacial de luz (SLM) y aquellas ocasionadas por los demás elementos ópticos.
+
+En este trabajo se presenta una modificación a los algoritmos de diversidad de fase coherente, propuestos por el grupo de óptica aplicada de la Universidad EAFIT. A través de dichos algoritmos, es posible recuperar las aberraciones de un sistema óptico, empleando vórtices ópticos generados con un modulador espacial de luz. Aunque las aberraciones sean recuperadas, su fuente no es predicha por diversidad de fase coherente, es por ello, que se proponen dos modificaciones que permiten discernir la procedencia de éstas.\\
+
+%En primera instancia, se obtiene una caracterización de la modulación en fase y amplitud del SLM y se plantea un nuevo esquema para la simulación de vórtices ópticos generados en un sistema limitado por difracción, empleando las características experimentales del SLM.\\
+
+Las modificaciones sobre diversidad de fase, se basan en el empleo de la curva de modulación de fase del modulador espacial de luz, por lo tanto, en primera instancia, se obtiene una caracterización del modulador espacial de luz. En particular, se analiza la generación de vórtices ópticos para tres curvas de modulación, y desde este análisis, se propone un nuevo esquema para la simulación de vórtices ópticos, propagados por un sistema limitado por difracción con la modulación de fase experimental. La adición de este elemento, permite proponer una nueva variable de entrada para diversidad de fase coherente, con lo cual, se efectúan las modificaciones propuestas.\\
+
+También se obtienen los resultados experimentales de las aberraciones, se realiza una comparación de aquellas recuperadas con diversidad de fase coherente, y sus respectivas modificaciones. Con base en los resultados obtenidos, se concluye que es posible discernir la fuente de las aberraciones, y obtener una corrección de manera independiente.}
+
+%En este trabajo, se obtienen los resultados experimentales de las aberraciones propuestas, y también se realiza una comparación de aquellas recuperadas con diversidad de fase coherente, y sus respectivas modificaciones. De esto, se obtiene que efectivamente es posible discernir, tanto las aberraciones, como la fuente de estas, y obtener una corrección de manera independiente.}
+
+%Las modificaciones propuestas se basan en el empleo de la curva de modulación experimental del SLM, de forma que la información de las aberraciones causadas por la modulación en fase del SLM sea incluida en el esquema de diversidad de fase. A partir de esto es posible modificar los parámetros de entrada para diversidad de fase y debido a esto, las aberraciones encontradas por el algoritmo corresponderán, o bien a las causadas solo por la modulación en fase, o por el sistema óptico.\\
+
+%En este trabajo también se realiza la corrección de las aberraciones de forma individual para luego obtener la aberración de la modulación en fase del SLM a partir de las aberraciones totales y las aberraciones recuperadas para el sistema óptico.}
+
+%\textbf{Palabras claves:} vórtice óptico, diversidad de fase, modulador espacial de luz, aberraciones ópticas.
+%}
+
+\portada 
+\thispagestyle{empty}
+
+\newpage\null\thispagestyle{empty}\newpage
+
+\contraportada
+\thispagestyle{empty}
+\newpage\null\thispagestyle{empty}\newpage
+
+\aceptacion
+%\thispagestyle{empty}
+\newpage
+\newpage\null\thispagestyle{empty}\newpage
+
+\dedicatoria
+\newpage\null\thispagestyle{empty}\newpage
+
+%\thispagestyle{empty}
+\newpage
+\agradecimientos
+\addcontentsline{toc}{section}{\bf Agradecimientos}
+\newpage
+\newpage\null\thispagestyle{empty}\newpage
+
+%\thispagestyle{empty}
+\newpage
+\resumen
+\addcontentsline{toc}{section}{\bf Resumen}
+\newpage
+\newpage\null\thispagestyle{empty}\newpage

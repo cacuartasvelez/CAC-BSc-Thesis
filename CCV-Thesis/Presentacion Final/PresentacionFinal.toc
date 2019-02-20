@@ -1,0 +1,17 @@
+\beamer@endinputifotherversion {3.24pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Introducci\IeC {\'o}n}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Planteamiento del problema}{4}{0}{1}
+\beamer@subsectionintoc {1}{3}{Objetivos}{7}{0}{1}
+\beamer@sectionintoc {2}{Generaci\IeC {\'o}n de v\IeC {\'o}rtices \IeC {\'o}pticos}{13}{0}{2}
+\beamer@subsectionintoc {2}{2}{Marco te\IeC {\'o}rico}{14}{0}{2}
+\beamer@subsectionintoc {2}{3}{Modulador espacial de luz}{15}{0}{2}
+\beamer@subsectionintoc {2}{4}{Caracterizaci\IeC {\'o}n de las curvas de modulaci\IeC {\'o}n}{16}{0}{2}
+\beamer@subsectionintoc {2}{5}{Aberraciones en v\IeC {\'o}rtices \IeC {\'o}pticos}{20}{0}{2}
+\beamer@sectionintoc {3}{Caracterizaci\IeC {\'o}n de aberraciones en v\IeC {\'o}rtices \IeC {\'o}pticos}{22}{0}{3}
+\beamer@subsectionintoc {3}{2}{Marco te\IeC {\'o}rico}{24}{0}{3}
+\beamer@subsectionintoc {3}{3}{Diversidad de fase}{25}{0}{3}
+\beamer@subsectionintoc {3}{4}{Correcci\IeC {\'o}n de aberraciones con diversidad de fase coherente}{29}{0}{3}
+\beamer@subsectionintoc {3}{5}{Modificaciones sobre diversidad de fase}{30}{0}{3}
+\beamer@subsectionintoc {3}{6}{Resultados: Modificaciones sobre PD coherente}{32}{0}{3}
+\beamer@sectionintoc {4}{Conclusiones}{35}{0}{4}

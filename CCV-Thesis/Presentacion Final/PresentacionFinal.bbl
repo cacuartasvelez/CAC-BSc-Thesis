@@ -1,0 +1,96 @@
+\begin{thebibliography}{10}
+
+\bibitem{Goodman2005}
+Joseph~W. Goodman.
+\newblock {\em Introduction to Fourier optics}.
+\newblock Roberts \& Co, Englewood, Colo, 3rd ed edition, 2005.
+
+\bibitem{EcheverriChacon2015}
+Santiago Echeverri~Chac{\'o}n.
+\newblock {\em Generaci{\'o}n y caracterizaci{\'o}n de v{\'o}rtices {\'o}pticos
+  mediante moduladores espaciales de luz}.
+\newblock PhD thesis, Universidad {EAFIT}, 2015.
+
+\bibitem{Gennes2007}
+Pierre Gilles~de Gennes and Jacques Prost.
+\newblock {\em The physics of liquid crystals}.
+\newblock Number~83 in The international series of monographs on physics.
+  Clarendon Press, Oxford, 2. ed., reprint edition, 2007.
+
+\bibitem{Schemmel2014}
+Peter Schemmel, Giampaolo Pisano, and Bruno Maffei.
+\newblock A modular spiral phase plate design for orbital angular momentum
+  generation at millimetre wavelengths.
+\newblock {\em Optics Express}, 22(12):14712, June 2014.
+
+\bibitem{Heckenberg1992}
+N.~R. Heckenberg, R.~{McDuff}, C.~P. Smith, and A.~G. White.
+\newblock Generation of optical phase singularities by computer-generated
+  holograms.
+\newblock {\em Opt. Lett}, 17(3):221--223, 1992.
+
+\bibitem{Burman2010}
+Ariel Burman.
+\newblock {\em Caracterizaci{\'o}n y control de un microdisplay como modulador
+  espacial de luz}.
+\newblock PhD thesis, Universidad de Buenos Aires, Argentina, 2010.
+
+\bibitem{Uribe2011}
+N{\'e}stor~Ra{\'u}l Uribe~Patarroyo.
+\newblock {\em Optical Space Applications of Liquid Crystals: Polarimetry and
+  Photon Orbital Angular Momentum in remote sensing}.
+\newblock PhD thesis, Universidad Complutense de Madrid, Espa{\~n}a, 2011.
+
+\bibitem{Baba2001}
+Naoshi Baba and Kohta Mutoh.
+\newblock Measurement of telescope aberrations through atmospheric turbulence
+  by use of phase diversity.
+\newblock {\em Applied optics}, 40(4):544--552, 2001.
+
+\bibitem{Dennis2009}
+Mark~R. Dennis, Kevin O'Holleran, and Miles~J. Padgett.
+\newblock Chapter 5 singular optics: Optical vortices and polarization
+  singularities.
+\newblock In {\em Progress in Optics}, volume~53, pages 293--363. Elsevier,
+  2009.
+
+\bibitem{Cheng2013}
+Wen Cheng.
+\newblock {\em Optical Vortex Beams: Generation, Propagation and Applications}.
+\newblock PhD thesis, University of Dayton, 2013.
+
+\bibitem{Harm2015}
+Walter Harm, Stefan Bernet, Monika Ritsch-Marte, Irina Harder, and Norbert
+  Lindlein.
+\newblock Adjustable diffractive spiral phase plates.
+\newblock {\em Optics Express}, 23(1):413, January 2015.
+
+\bibitem{Paxman1992}
+Richard~G. Paxman, Timothy~J. Schulz, and James~R. Fienup.
+\newblock Joint estimation of object and aberrations by using phase diversity.
+\newblock {\em {JOSA} A}, 9(7):1072--1085, 1992.
+
+\bibitem{Korkiakoski2012}
+Visa Korkiakoski, Christoph~U. Keller, Niek Doelman, Rufus Fraanje, and Michel
+  Verhaegen.
+\newblock Joint optimization of phase diversity and adaptive optics:
+  demonstration of potential.
+\newblock {\em Applied optics}, 51(1):102--113, 2012.
+
+\bibitem{Rozas1999}
+David Rozas.
+\newblock {\em Generation and Propagation of Optical Vortices}.
+\newblock PhD thesis, {WORCESTER} {POLYTECHNIC} {INSTITUTE}, 1999.
+
+\bibitem{Campbell2004}
+Heather~I. Campbell, Sijiong Zhang, Alan~H. Greenaway, and Sergio Restaino.
+\newblock Generalized phase diversity for wave-front sensing.
+\newblock {\em Opt. Lett.}, 29(23):2707--2709, 2004.
+
+\bibitem{Blanchard2000}
+Paul~M. Blanchard, David~J. Fisher, Simon~C. Woods, and Alan~H. Greenaway.
+\newblock Phase-diversity wave-front sensing with a distorted diffraction
+  grating.
+\newblock {\em Appl. Opt.}, 39(35):6649--6655, 2000.
+
+\end{thebibliography}

@@ -1,0 +1,97 @@
+\chapter{Introducción}
+\label{cap:introduccion}
+
+%Las singularidades son puntos de magnitud indeterminada que se presentan en diversos sistemas físicos \cite{Dennis2009}; por ejemplo, si tomamos un imán y analizamos las líneas de campo, estas deben cerrarse sobre el imán, pero en el caso de los polos, la dirección del campo no se encuentra definida. Un vórtice óptico (OV: \textit{optical votex}) es una singularidad que ocurre en la fase de un haz y se da por la presencia de momento angular orbital (OAM: \textit{orbital angular momentum}) en los fotones \cite{Uribe2011, Cheng2013}. Cuando se tiene un haz con OAM diferente de cero, la fase rota al rededor de un eje perpendicular al plano objeto en la dirección de la propagación, describiendo una helicoide, y la intensidad del haz se desvanece en el centro a causa de la singularidad.\\
+
+Las singularidades son puntos de amplitud nula y de fase indeterminada que se presentan en diversos sistemas físicos \cite{Dennis2009}; por ejemplo, si tomamos un imán y analizamos las líneas de campo, éstas deben cerrarse sobre el imán, pero en el caso de los polos, la dirección del campo no se encuentra definida. Un vórtice óptico (OV: \textit{optical vortex}) es una singularidad que se presenta en la fase de un haz, y se da por la presencia de momento angular orbital (OAM: \textit{orbital angular momentum}) en los fotones \cite{Uribe2011, Cheng2013}. Cuando se tiene un haz con OAM diferente de cero, la fase rota perpendicularmente respecto a un eje en la dirección de propagación, describiendo un helicoide, y la intensidad se desvanece en el centro del haz a causa de la singularidad de fase.\\
+
+%Para generar OVs se requiere modificar la distribución de fase usando las conocidas máscaras espirales \cite{Rozas1999, Bazhenov1990}; para ello se han empleado elementos como placas de fase espiral \cite{Ruffato2014, Schemmel2014} o redes de difracción \cite{Bekshaev2010, Heckenberg1992, Bekshaev2010a}, aunque gracias a los avances en cristales líquidos (LCs: \textit{liquid crystals}) y los hologramas generados por computadora, la forma más común de generar OVs es a través de un modulador espacial de luz (SLM: \textit{spatial ligth modulator}). Estos últimos son dispositivos opto-electrónicos que modifican la amplitud o la fase de la luz de forma controlada empleando LCs \cite{Uribe2011, Burman2010, Gennes2007}.\\
+
+Una forma de generar OVs consiste en la modificación de la de fase en un haz Gaussiano, de forma que se impone una distribución en espiral a la fase del haz\cite{Rozas1999, Bazhenov1990}. Para obtener una distribución de fase espiral, se han empleado dispositivos tales como: placas de fase espiral \cite{Ruffato2014, Schemmel2014} o rejillas de difracción \cite{Bekshaev2010, Heckenberg1992, Bekshaev2010a}. Aunque, gracias a los avances en cristales líquidos (LCs: \textit{liquid crystals}) y los hologramas generados por computadora, se ha visto potenciado el empleo de moduladores espaciales de luz (SLM: \textit{spatial light modulator}) para la generación de OVs. Estos últimos, son dispositivos opto-electrónicos que modifican la amplitud o la fase de la luz de manera controlada, para ello, emplean las propiedades de los LCs \cite{Uribe2011, Burman2010, Gennes2007}. Cuando un campo definido por una amplitud con distribución Gaussiana y un frente de onda plano, se propaga a través de una lente, se esperaría obtener un disco de Airy en el plano focal, por otro lado, cuando la fase de la distribución Gaussiana posee una vorticidad óptica, en el plano focal se obtiene una distribución de intensidad toroidal propia de los OVs.\\
+
+
+%Para obtener Ovs se han empleado placas de fase espiral, redes de difracción, . Pero con el desarrollo de los cristales líquidos y los hologramas generados por computadora, en los últimos años se han empleado moduladores espaciales de luz como generadores de chgs. Un SLm es un dispositivo opto-electrónico que permite modificar las propiedades de un haz, bien sea la amplitud o la fase.
+
+%que se presentan en diversos sistemas físicos, en donde se da una indeterminación en la magnitud del campo. Un vórtice óptico es en una singularidad que ocurre en la fase de un haz de luz, este aparece gracias a la presencia de momento angular orbital. Cuando se tiene un haz con oam distinto de cero, entonces en la intensidad se obtiene una estructura que posee su núcleo oscuro, es decir, la luz se distribuye alrededor del centro, pero este permanece oscuro. Cuando se generan a través de un sistema óptico, es de esperar que al igual que cualquier otro campo que se propague, los ov posean aberraciones que describen el sistema óptico asociado con su generación. Para obtener Ovs se han empleado placas de fase espiral, redes de difracción, . Pero con el desarrollo de los cristales líquidos y los hologramas generados por computadora, en los últimos años se han empleado moduladores espaciales de luz como generadores de chgs. Un SLm es un dispositivo opto-electrónico que permite modificar las propiedades de un haz, bien sea la amplitud o la fase.\\
+
+
+Si se propaga un campo a través de un sistema óptico formador de imagen, las aberraciones se reflejan como una perdida en la resolución de la imagen reconstruida. Conocer las aberraciones que induce el sistema óptico permite, o bien su corrección desde los elementos ópticos, o por medio de la adición de un cambio en la fase que las contrarreste \cite{Liesener2004, Cizmar2011}. Las aberraciones pueden ser recuperadas mediante la fase en el plano de la imagen, siendo estas quienes se encargan de distorsionar el objeto original. Los métodos de reconstrucción de fase se dividen a su vez, en dos categorías: interferométricos y no interferométricos. Los métodos interferemétricos se basan en el análisis del patrón de franjas producido por la interferencia entre un haz de referencia y un haz objeto \cite{Creath1988, Malacara2007}. Por otro lado, los métodos no interferométricos basan su análisis en medidas de intensidad \cite{Soloviev2006, Chanan2000}.\\
+
+% Debido a las aberraciones, hay una deformación en el patrón de franjas obtenido, y dicha deformación se recupera a través de un análisis de los interferogramas. 
+
+A los método de sensado no interferométricos pertenece una técnica que se conoce como diversidad de fase (PD: \textit{phase diversity}), en este, se emplea un algoritmo de búsqueda del gradiente (GSA: \textit{gradient search algorithm}) para minimizar una función error. Particularmente este algoritmo se basa en la solución a un problema de propagación inverso de múltiples observaciones, en donde, mediante modificaciones en la función de transferencia del sistema óptico se puedan recuperar las aberraciones que este induce \cite{Gonsalves1982,Paxman1992}.\\
+
+%Si se propaga un campo a través de un sistema óptico formador de imagen, las aberraciones se reflejan como una perdida en la resolución de la imagen reconstruida. Conocer las aberraciones que induce el sistema óptico permite, o bien su corrección desde los elementos ópticos, o por medio de la adición de un cambio en la fase que las contrarreste \cite{Liesener2004, Cizmar2011}. Lo métodos de reconstrucción de fase más comunes son aquellos interferométricos \cite{Creath1988, Malacara2007}, en donde a partir de un patrón de interferencia se puede recuperar la fase del objeto y descomponiendo esta en términos de aberraciones, como por ejemplo a través de una serie de Zernike, pueden determinarse las aberraciones. Existen otro tipo de métodos no interferométricos para la recuperación de la fase \cite{Soloviev2006, Chanan2000} , como lo es el sensor Hartmann-Shack, en donde por medio del mapeo de la intensidad a través de una matriz de microlentes se recupera la fase, luego se descompone en términos de una serie por ejemplo de Zernike y desde allí se obtienen las aberraciones. A los método de sensado no interferométricos pertenece una técnica que se conoce como diversidad de fase (PD: \textit{phase diversity}), en este se busca mediante un algoritmo basado en la de búsqueda del gradiente (GSA: \textit{gradient search algorithm}) minimizar una función error de forma que mediante modificaciones en la función de punto extendido del sistema óptico se puedan recuperar las aberraciones que este posee \cite{Gonsalves1982,Paxman1992}. Este método se ha empleado en sistemas con iluminación incoherente.\\
+
+Nuestra intención es aplicar PD en haces con vorticidades ópticas; para ello primero se debe desarrollar un PD que pueda ser aplicado a sistemas coherentes, de forma, que a través de medidas de intensidad de OVs puedan recuperarse las aberraciones que estos presenten. Emplear OVs añade un grado de libertad relacionado con el OAM a PD, y esto puede aprovecharse para mejorar la respuesta del GSA en la determinación de las aberraciones, a este lo denominaremos en adelante PD coherente \cite{Echeverri2015}. La convergencia del método está determinada por la comparación de la intensidad experimental con una que se genera de un sistema limitado por difracción, es decir, se requiere del conocimiento \textit{a priori} del objeto ideal, en nuestro caso, la generamos por medio de la la simulación de un OV obtenido por un sistema limitado por difracción.\\
+
+A causa del empleo de un SLM en la generación de OVs, hay aberraciones causadas por la modulación en fase del SLM. Cuando se emplea PD debido a que las aberraciones recuperadas son aquellas causadas por todo el sistema óptico, no es posible distinguir qué elementos ópticos aportan las aportan. Pero a través de la información de la curva de modulación en fase del SLM podemos modificar PD coherente para distinguir las aberraciones del SLM con respecto al sistema óptico. A partir de esta información se plantean entonces dos modificaciones para PD coherente, de forma, que es posible distinguir el aporte a las aberraciones del SLM y el aporte del sistema óptico.\\
+
+% a esta técnica la llamaremos en adelante pd coherente.
+
+
+%Cuando se generan OVs por medio de un sistema óptico, al igual que cualquier campo que por allí se propague, las aberraciones y características con las que fueron generados se reflejan en los. Conocer las aberraciones que induce un sistema óptico permite su corrección experimental o por medio de la adición de una fase que contrarreste las aberraciones indeseadas. Lo métodos de reconstrucción de fase más comunes son aquellos intereferométricos, en donde a partir de un patrón de intereferencia se pueden recuperar las aberraciones. Aquí proponemos emplear un método no interferometrico que proviene de la asronomia y se conoce como divesidad de fase. En este se busca mediante un algoritmo iterativo basado en un algoritmo de busqueda de gradiente, minimizar una función error de forma que   se puedan recuperar las aberraciones. Nuestra intención es entonces aplicar pd a ovs de forma que a través de medidas de intensidad puedan recuperarse las aberraciones que estos presenten, a esta técnica la llamaremos en adelante pd coherente.\\
+
+Si consideramos las aberraciones que induce el SLM tomando la curva de modulación característica, podemos inferir la contribución de aberraciones del sistema óptico puesto que las del SLM ya son consideradas en el modelo. Pero, si por el contrario tomamos el caso de un OV generado en un sistema limitado por difracción y de un OV generado en un sistema limitado por difracción con la curva de modulación de fase, se pueden recuperar las aberraciones inducidas por el SLM, puesto que el sistema óptico no contribuye a las aberraciones.\\
+
+Aquí se proponen entonces las siguientes modificaciones sobre PD coherente: 
+\begin{itemize}
+	\item Simular la curva de modulación de fase en un sistema limitado por difracción, obteniendo OVs como referencia para PD de forma que se considera la contribución a las aberraciones del SLM y cuando se emplean resultados experimentales se espera que aquellas aberraciones obtenidas correspondan a las causadas por el sistema óptico.
+	\item Simular la curva de modulación en fase en un sistema limitado por difracción y generar OVs en un sistema limitado por difracción con modulación ideal de forma que la comparación entre estos dos difiera únicamente por la presencia de las características del SLM y por tanto, de aquí se obtengan las aberraciones que son ocasionadas por el SLM.
+\end{itemize}
+
+El objetivo de este proyecto es aplicar las variaciones de PD propuestas a OVs y determinar de forma independiente las aberraciones inducidas por el SLM y las ocasionadas por el sistema óptico.\\% Además, determinar si partir de una combinación de los resultados anteriores pueda determinarse una aberración similar a la obtenida por PD coherente, para finalmente recuperar un objeto de fase a partir de las modificaciones realizadas sobre PD.\\
+
+Los conceptos básicos sobre OV, generación de OVs, SLMs y aberraciones en OVs a causa de factores de modulación se presentan en el capítulo \ref{cap:vortices}. Para recuperar las aberraciones en OVs se propone un nuevo método basado en el concepto de PD, aplicado a sistemas con iluminación coherente.\\
+
+La técnica de PD se describe en el capítulo \ref{cap:diversidad}. En este se desarrolla el modelos de PD tradicional y sobre este se plantea un modelo de PD para sistemas con iluminación coherente. Luego de esto se plantean dos modificaciones sobre PD coherente que permiten discernir la contribución de aberraciones del sistema óptico y las del SLM. Finalmente, también se tratan conceptos sobre las aberraciones ópticas descritas desde los polinomios de Zernike.\\
+
+Las diferentes implementaciones experimentales y computacionales se presentan en el capítulo \ref{cap:implementacion}. Allí se presentan los pasos de caracterización de la curva de modulación de fase, la simulación de OVs y el montaje experimental empleado.\\
+
+Finalmente, en el capítulo \ref{cap:resultados} se detallan los resultados, desde la obtención de OVs, pasando por la simulación de la generación de OVs con la curva de modulación de fase, la corrección genérica con PD coherente y por último, aplicar las modificaciones que se plantean sobre PD coherente para determinar las aberraciones del sistema óptico y las aberraciones a causa la modulación de fase del SLM. Por ello se proponen los siguientes objetivos.
+
+\section{Objetivo General}
+
+
+Solucionar la indeterminación que hay entre las aberraciones provenientes de la no idealidad de un SLM y las aberraciones propias de un sistema óptico al usar los algoritmos de PD desarrollados por el grupo de óptica aplicada.
+
+%%%%%%%%%%%% IDEAS ADICIONALES %%%%%%%%%%%%%%%%%%%
+
+%Identificar aplicaciones de \textit{Phase Diversity} para la generación de vórtices ópticos de alta calidad.
+
+%¿Qué hemos hecho? Proyecto Avanzado
+
+%Profundizar
+
+%Entender mejor qué esta pasando
+
+%Cual es la relación entre las aberraciones del modulador y las máscaras que se presentan
+
+%Generalizar la propuesta de PD coherente con vorticidad y moduladores baratos.
+
+%Proponer (Desarrollar/implementar) una modificación (versión alternativa) del PD (hecho por nosotros) que aproveche el conocimiento de la modulación de fase del SLM para mejorar la calidad de la reconstrucción de las aberraciones en el frente de onda.
+
+\section{Objetivos Específicos}
+
+\begin{itemize}
+
+%----
+
+\item Implementar un algoritmo de PD que basado en imágenes sintéticas simule los efectos de modulación no lineal de un SLM. 
+%(¿Cual es el efecto de la no linealidad de las máscaras en el PD?)
+
+%\item Emplear el algoritmo del objetivo anterior para encontrar las aberraciones independiente del efecto del SLM
+
+\item Emplear la implementación anterior comparando con imágenes experimentales, con miras a encontrar las aberraciones causadas por fuentes diferentes a la modulación no lineal del SLM.
+
+%\item (Comprobar experimentalmente) Adaptar el algoritmo anterior para la detección de aberraciones en sistemas ¿reales? de PD en los cuales se conoce la curva de respuesta del sistema que modula en fase el frente de onda.
+
+\item Establecer si a partir de la combinación de los resultados de los objetivos anteriores puede reconstruirse la aberración del frente de onda obtenido con PD cero. %Aclarar que es pd 0
+
+%\item ¿Podemos diferenciar experimentalmente las aberraciones debidas a la mala modulación de las causadas por el sistema óptico? (Combinar las dos formas de PD para obtener las aberraciones reales del sistema óptico)
+
+%\item Analizar la posibilidad de plantear un método que combine los tres.
+
+%\item Validar experimentalmente lo anterior usando un objeto cuya fase sea conocida.
+\item Validar experimentalmente los resultados obtenidos recuperando la fase de un objeto cuya aberración sea conocida.
+\end{itemize}

@@ -1,0 +1,312 @@
+\begin{thebibliography}{10}
+
+\bibitem{Dennis2009}
+Mark~R. Dennis, Kevin O'Holleran, and Miles~J. Padgett.
+\newblock Chapter 5 singular optics: Optical vortices and polarization
+  singularities.
+\newblock In {\em Progress in Optics}, volume~53, pages 293--363. Elsevier,
+  2009.
+
+\bibitem{Uribe2011}
+N{\'e}stor~Ra{\'u}l Uribe~Patarroyo.
+\newblock {\em Optical Space Applications of Liquid Crystals: Polarimetry and
+  Photon Orbital Angular Momentum in remote sensing}.
+\newblock PhD thesis, Universidad Complutense de Madrid, Espa{\~n}a, 2011.
+
+\bibitem{Cheng2013}
+Wen Cheng.
+\newblock {\em Optical Vortex Beams: Generation, Propagation and Applications}.
+\newblock PhD thesis, University of Dayton, 2013.
+
+\bibitem{Rozas1999}
+David Rozas.
+\newblock {\em Generation and Propagation of Optical Vortices}.
+\newblock PhD thesis, {WORCESTER} {POLYTECHNIC} {INSTITUTE}, 1999.
+
+\bibitem{Bazhenov1990}
+V.~Yu Bazhenov, M.~V. Vasnetsov, and M.~S. Soskin.
+\newblock Laser beams with screw dislocations in their wavefronts.
+\newblock {\em {JETP}. Lett.}, 52(8):429--431, 1990.
+
+\bibitem{Ruffato2014}
+G.~Ruffato, M.~Massari, and F.~Romanato.
+\newblock Generation of high-order laguerre{\textendash}gaussian modes by means
+  of spiral phase plates.
+\newblock {\em Optics Letters}, 39(17):5094, September 2014.
+
+\bibitem{Schemmel2014}
+Peter Schemmel, Giampaolo Pisano, and Bruno Maffei.
+\newblock A modular spiral phase plate design for orbital angular momentum
+  generation at millimetre wavelengths.
+\newblock {\em Optics Express}, 22(12):14712, June 2014.
+
+\bibitem{Bekshaev2010}
+A.~Bekshaev, O.~Orlinska, and M.~Vasnetsov.
+\newblock Optical vortex generation with a ``fork'' hologram under conditions
+  of high-angle diffraction.
+\newblock {\em Optics Communications}, 283(10):2006--2016, May 2010.
+
+\bibitem{Heckenberg1992}
+N.~R. Heckenberg, R.~{McDuff}, C.~P. Smith, and A.~G. White.
+\newblock Generation of optical phase singularities by computer-generated
+  holograms.
+\newblock {\em Opt. Lett}, 17(3):221--223, 1992.
+
+\bibitem{Bekshaev2010a}
+A.Ya. Bekshaev and O.V. Orlinska.
+\newblock Transformation of optical-vortex beams by holograms with embedded
+  phase singularity.
+\newblock {\em Optics Communications}, 283(7):1244--1250, April 2010.
+
+\bibitem{Burman2010}
+Ariel Burman.
+\newblock {\em Caracterizaci{\'o}n y control de un microdisplay como modulador
+  espacial de luz}.
+\newblock PhD thesis, Universidad de Buenos Aires, Argentina, 2010.
+
+\bibitem{Gennes2007}
+Pierre Gilles~de Gennes and Jacques Prost.
+\newblock {\em The physics of liquid crystals}.
+\newblock Number~83 in The international series of monographs on physics.
+  Clarendon Press, Oxford, 2. ed., reprint edition, 2007.
+
+\bibitem{Liesener2004}
+J.~Liesener, M.~Reicherter, and H.J. Tiziani.
+\newblock Determination and compensation of aberrations using {SLMs}.
+\newblock {\em Optics Communications}, 233(1-3):161--166, March 2004.
+
+\bibitem{Cizmar2011}
+T~{\v C}i{\v z}m{\'a}r, H~I~C Dalgarno, P~C Ashok, F~J Gunn-Moore, and
+  K~Dholakia.
+\newblock Optical aberration compensation in a multiplexed optical trapping
+  system.
+\newblock {\em Journal of Optics}, 13(4):044008, April 2011.
+
+\bibitem{Creath1988}
+Katherine Creath.
+\newblock Phase-measurement interferometry techniques.
+\newblock {\em Progress in optics}, {XXVI}(26):351--398, 1988.
+
+\bibitem{Malacara2007}
+Daniel Malacara, editor.
+\newblock {\em Optical shop testing}.
+\newblock Wiley series in pure and applied optics. Wiley-Interscience, Hoboken,
+  N.J, 3rd ed edition, 2007.
+
+\bibitem{Soloviev2006}
+O.~A. Soloviev.
+\newblock {\em Methods and sensors for accurate wavefront measurements}.
+\newblock PhD thesis, {TU} Delft, Delft University of Technology, 2006.
+
+\bibitem{Chanan2000}
+Gary Chanan.
+\newblock Principles of wavefront sensing and reconstruction.
+\newblock {\em Center for Adaptive Optics ({CfAO}) Proceedings: Summer School
+  on Adaptive Optics, Santa Cruz, {CA}}, 2000.
+
+\bibitem{Gonsalves1982}
+Robert~A. Gonsalves.
+\newblock Phase retrieval and diversity in adaptive optics.
+\newblock {\em Opt. Eng}, 21(5):215829--215829--, 1982.
+
+\bibitem{Paxman1992}
+Richard~G. Paxman, Timothy~J. Schulz, and James~R. Fienup.
+\newblock Joint estimation of object and aberrations by using phase diversity.
+\newblock {\em {JOSA} A}, 9(7):1072--1085, 1992.
+
+\bibitem{Echeverri2015}
+Santiago Echeverri-Chac{\'o}n, Ren{\'e} Restrepo, Carlos Cuartas-V{\'e}lez, and
+  N{\'e}stor Uribe-Patarroyo.
+\newblock Optical vortex-enhanced coherent illumination phase diversity for
+  phase retrieval on general imaging systems.
+\newblock {\em Unpublished}.
+
+\bibitem{Berry2000}
+Michael Berry.
+\newblock Making waves in physics.
+\newblock {\em Nature}, 403(6765):21--21, 2000.
+
+\bibitem{Whewell1830}
+William Whewell.
+\newblock Researches on the tides; sixth series. on the results of an extensive
+  system of tide observations, made on the coasts of europe and america, in
+  june 1835.
+\newblock {\em Philosophical Transactions of the Royal Society of London},
+  26(3):289--341, 1836.
+
+\bibitem{Dirac1931}
+Paul~{AM} Dirac.
+\newblock Quantised singularities in the electromagnetic field.
+\newblock In {\em Proceedings of the Royal Society of London A: Mathematical,
+  Physical and Engineering Sciences}, volume 133, pages 60--72. The Royal
+  Society, 1931.
+
+\bibitem{Read1953}
+W.~T. Read.
+\newblock {\em Dislocation in crystals}.
+\newblock {McGraw}-Hill Education, 1953.
+
+\bibitem{Nye1974}
+J.~F. Nye and M.~V. Berry.
+\newblock Dislocations in wave trains.
+\newblock {\em Proceedings of the Royal Society A: Mathematical, Physical and
+  Engineering Sciences}, 336(1605):165--190, January 1974.
+
+\bibitem{Wolter1950}
+Hans Wolter.
+\newblock Zur frage des lichtweges bei totalreflexion.
+\newblock {\em Zeitschrift f{\"u}r Naturforschung A}, 5(5):276--283, 1950.
+
+\bibitem{Coullet1994}
+P.~Coullet, L.~Gil, and F.~Rocca.
+\newblock Optical vortices.
+\newblock {\em {SPIE} {MILESTONE} {SERIES} {MS}}, 75:480--480, 1994.
+
+\bibitem{Hecht2000}
+Eugene Hecht, Raffaello Dal~Col, Rosa Weigand~Talavera, and Jos{\'e}~Manuel
+  Guerra~P{\'e}rez.
+\newblock {\em {\'O}ptica}.
+\newblock Addison Wesley, Madrid, 2000.
+
+\bibitem{King2010}
+Robert~Paul King.
+\newblock {\em Knotting of optical vortices}.
+\newblock PhD thesis, University of Southampton, 2010.
+
+\bibitem{SepulvedaSoto2009}
+Alonso Sepulveda~Soto.
+\newblock {\em F{\'\i}sica matem{\'a}tica.}
+\newblock Universidad de Antioquia, Medell{\'\i}n, 2009.
+
+\bibitem{Cheng2009}
+Wen Cheng, Joseph~W. Haus, and Qiwen Zhan.
+\newblock Propagation of vector vortex beams through a turbulent atmosphere.
+\newblock {\em Optics express}, 17(20):17829--17836, 2009.
+
+\bibitem{Zhan2009}
+Qiwen Zhan.
+\newblock Cylindrical vector beams: from mathematical concepts to applications.
+\newblock {\em Advances in Optics and Photonics}, 1(1):1, January 2009.
+
+\bibitem{Ohtomo2008}
+Takayuki Ohtomo, Shu-Chun Chu, and Kenju Otsuka.
+\newblock Generation of vortex beams from lasers with controlled herte- and
+  ince- gaussian modes.
+\newblock {\em Optics Express}, 16(7):5082--5094, 2008.
+
+\bibitem{Tyson2008}
+Robert~K. Tyson, Marco Scipioni, and Jaime Viegas.
+\newblock Generation of an optical vortex with a segmented deformable mirror.
+\newblock {\em Applied Optics}, 47(33):6300, November 2008.
+
+\bibitem{KrishnaInavalli2010}
+V.V.G. Krishna~Inavalli and Nirmal~K. Viswanathan.
+\newblock Switchable vector vortex beam generation using an optical fiber.
+\newblock {\em Optics Communications}, 283(6):861--864, March 2010.
+
+\bibitem{Gao2014}
+Wei Gao, Xiaobo Hu, Chunyuan Mu, and Peijing Sun.
+\newblock Generation of vector vortex beams with a small core multimode liquid
+  core optical fiber.
+\newblock {\em Optics Express}, 22(9):11325, May 2014.
+
+\bibitem{Sueda2004}
+Keiichi Sueda, G.~Miyaji, Noriaki Miyanaga, and M.~Nakatsuka.
+\newblock Laguerre-gaussian beam generated with a multilevel spiral phase plate
+  for high intensity laser pulses.
+\newblock {\em Optics express}, 12(15):3548--3553, 2004.
+
+\bibitem{Harm2015}
+Walter Harm, Stefan Bernet, Monika Ritsch-Marte, Irina Harder, and Norbert
+  Lindlein.
+\newblock Adjustable diffractive spiral phase plates.
+\newblock {\em Optics Express}, 23(1):413, January 2015.
+
+\bibitem{Bekshaev2008}
+A.Ya. Bekshaev and A.I. Karamoch.
+\newblock Spatial characteristics of vortex light beams produced by diffraction
+  gratings with embedded phase singularity.
+\newblock {\em Optics Communications}, 281(6):1366--1374, March 2008.
+
+\bibitem{Bekshaev2009}
+A.~Ya Bekshaev, A.~I. Karamoch, M.~V. Vasnetsov, V.~A. Pas'~ko, and M.~S.
+  Soskin.
+\newblock Structure of optical vortices produced by holographic gratings with"
+  fork" geometry: Kummer beams.
+\newblock {\em {arXiv} preprint {arXiv}:0906.2619}, 2009.
+
+\bibitem{Cho1998}
+Doo~Jin Cho, Samuel~T. Thurman, J.~T. Donner, and G.~Michael Morris.
+\newblock Characteristics of a 128\${\textbackslash}times\$ 128 liquid-crystal
+  spatial light modulator for wave-front generation.
+\newblock {\em Optics letters}, 23(12):969--971, 1998.
+
+\bibitem{Jesacher2008}
+Alexander Jesacher, Christian Maurer, Andreas Schwaighofer, Stefan Bernet, and
+  Monika Ritsch-Marte.
+\newblock Near-perfect hologram reconstruction with a spatial light modulator.
+\newblock {\em Optics express}, 16(4):2597--2603, 2008.
+
+\bibitem{Ahderom2002}
+Selam Ahderom, Mherdad Raisi, Kungmang Lo, Kamal~E. Alameh, and Rafie Mavaddat.
+\newblock Applications of liquid crystal spatial light modulators in optical
+  communications.
+\newblock In {\em High Speed Networks and Multimedia Communications 5th {IEEE}
+  International Conference on}, pages 239--242. {IEEE}, 2002.
+
+\bibitem{Iemmi2001}
+Claudio Iemmi, Ignacio Moreno, Jeffrey~A. Davis, Juan Campos, Maria~J. Yzuel,
+  and {others}.
+\newblock Quantitative prediction of the modulation behavior of twisted nematic
+  liquid crystal displays based on a simple physical model.
+\newblock {\em Optical Engineering}, 40(11):2558--2564, 2001.
+
+\bibitem{Moreno2003}
+I.~Moreno, P.~Vel{\'a}squez, C.~R. Fern{\'a}ndez-Pousa, M.~M.
+  S{\'a}nchez-L{\'o}pez, and F.~Mateos.
+\newblock Jones matrix method for predicting and optimizing the optical
+  modulation properties of a liquid-crystal display.
+\newblock {\em Journal of Applied Physics}, 94(6):3697, 2003.
+
+\bibitem{Paxman1988}
+R.~G. Paxman and J.~R. Fienup.
+\newblock Optical misalignment sensing and image reconstruction using phase
+  diversity.
+\newblock {\em {JOSA} A}, 5(6):914--923, 1988.
+
+\bibitem{Goodman2005}
+Joseph~W. Goodman.
+\newblock {\em Introduction to Fourier optics}.
+\newblock Roberts \& Co, Englewood, Colo, 3rd ed edition, 2005.
+
+\bibitem{Schmidt2010}
+Jason~Daniel Schmidt.
+\newblock {\em Numerical simulation of optical wave propagation with examples
+  in {MATLAB}}.
+\newblock {SPIE}, Bellingham, Wash, 2010.
+
+\bibitem{Dai2008}
+Guang-ming Dai.
+\newblock {\em Wavefront optics for vision correction}.
+\newblock {SPIE} Press, Bellingham, Wash, 2008.
+
+\bibitem{Campos2000}
+Juan Campos, Ignacio Moreno, Jeffrey~A. Davis, Claudio Iemmi, Alfonso Moreno,
+  Arnau Robert, and {others}.
+\newblock Characterization of edge effects in twisted nematic liquid crystal
+  displays.
+\newblock {\em Optical Engineering}, 39(12):3301--3307, 2000.
+
+\bibitem{Ma2011}
+Baiheng Ma, Baoli Yao, Ze~Li, and Tong Ye.
+\newblock Improvement of the performance of the twisted-nematic liquid-crystal
+  display as a phase modulator.
+\newblock {\em Appl Opt}, 50(17):2588--2593, June 2011.
+
+\bibitem{EcheverriChacon2015}
+Santiago Echeverri~Chac{\'o}n.
+\newblock Generaci{\'o}n y caracterizaci{\'o}n de v{\'o}rtices {\'o}pticos
+  mediante moduladores espaciales de luz.
+\newblock Master's thesis, Universidad {EAFIT}, 2015.
+
+\end{thebibliography}
